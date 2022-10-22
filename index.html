@@ -1,1 +1,43 @@
-<meta http-equiv="refresh" content="0; url=https://danielfvm.github.io/Z80nline/dist/index.html">
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Z80 Assembler</title>
+        <link rel="stylesheet" type="text/css" href="global.css">
+		<script src="bundle.js"></script>
+	</head>
+	<body>
+		<h1>Z80 Assembler</h1>
+		<h3>by Daniel Schloegl</h3>
+
+		<a href="https://github.com/danielfvm/Z80nline" class="github">
+			<img src="https://www.macobserver.com/wp-content/uploads/2019/05/workfeatured-GitHub-2.png"></img>
+		</a>
+
+		<div class="table">
+			<div class="side">
+				<p>Input</p>
+				<div class="line-numbers">
+					<span></span>
+				</div>
+
+				<textarea spellcheck="false" id="input" placeholder="Your Z80 asm code here" wrap="off"></textarea>
+			</div>
+			<div class="middle">
+				<div>
+					<label class="upload">
+						<input type="file" id="upload" value="Upload Code">
+						<span>Upload Code</span>
+					</label>
+
+					<input type="button" id="convert" value="Convert">
+					<input type="button" id="export" value="Export .xlsx">
+				</div>
+			</div>
+			<div class="side">
+				<p>Output</p>
+				<textarea spellcheck="false" id="output" wrap="off"></textarea>
+			</div>
+		</div>
+	</body>
+</html>

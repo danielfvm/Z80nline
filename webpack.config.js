@@ -1,18 +1,7 @@
-const path = require('path');
-const JavaScriptObfuscator = require('webpack-obfuscator');
-
 module.exports = {
-	devServer: {
-		static: "./dist",
-	},
 	entry: './src/index.js',
 	output: {
 		filename: 'bundle.js',
-		path: path.resolve(__dirname, 'dist'),
+		path: __dirname,
 	},
-	/*plugins: [
-		new JavaScriptObfuscator({
-			rotateStringArray: true
-		})
-	]*/
 };

@@ -100,3 +100,25 @@ textarea {
   vertical-align: middle;
 }
 
+.github {
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: 10px;
+  width: 50px;
+  height: auto;	
+  background: black;
+  border-radius: 0 0 5px 5px;
+  transition: top 0.1s;
+}
+
+.github:hover {
+  top: 0px;
+  transition: top 0.1s;
+}
+
+.github > * {
+  margin-top: 20px;
+  width: 50px;
+  height: auto;	
+}
