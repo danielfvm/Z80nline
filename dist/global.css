@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+body {
+  background: #f0f0f0;
+  overflow: hidden;
+  color: #b0b0b0;
+  font-family: 'Dangrek', cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-top: -20px;
+}
+
+h3 {
+  margin-top: -80px;
+  text-align: center;
+}
+
+.table {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  left: 0;
+  right: 0;
+  top: 120px;
+  height: calc(100% - 120px + 5px);
+}
+
+.side {
+  width: calc(50% - 50px);
+  height: 100%;
+}
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  align-items: center;
+}
+
+.middle > div > * {
+  border: none;
+  border-radius: 10px;
+  background: #b0b0b0;
+  box-shadow: #c0c0c0 0 0 6px;
+  color: white;
+  width: 100px;
+  height: 60px;
+  margin-top: 10px;
+  transition: 0.2s;
+  text-align: center;
+  cursor: pointer;
+
+  font-family: 'Dangrek', cursive;
+  font-size: 15px;
+}
+
+.middle > div > *:hover {
+  background: #a0a0a0;
+  transition: 0.2s;
+}
+
+.middle > div > *:active {
+  background: #909090;
+  transition: 0.1s;
+}
+
+textarea {
+  background: #ffffff;
+  border: none;
+  resize: none;
+  border-radius: 10px;
+  box-shadow: #c0c0c0 0 0 6px;
+
+  margin: 0 10px;
+  padding: 10px;
+
+  width: calc(100% - 40px);
+  height: calc(100% - 125px);
+}
+
+.side > p {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+}
+
+.upload input[type="file"] {
+  position: absolute;
+  top: -1000px;
+}
+
+.upload {
+  width: 100%;
+  cursor: pointer;
+  display: inline-block;
+  display: table-cell;
+  vertical-align: middle;
+}
+
