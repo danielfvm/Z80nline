@@ -1,0 +1,23 @@
+{
+  "name": "Z80nline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --open --mode=development",
+    "build": "npx webpack --config webpack.config.js --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "javascript-obfuscator": "^4.0.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-obfuscator": "^3.5.1"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
